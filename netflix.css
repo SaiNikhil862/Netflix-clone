@@ -1,0 +1,420 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+main{
+    /* border: 2px solid yellow; */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/IN-en-20250505-TRIFECTA-perspective_03ae1a85-5dcf-4d20-a8a6-1e61f7ef73cb_small.png');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+nav{
+    /* border: 2px solid red; */
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+}
+nav div{
+    /* border: 2px solid green; */
+    height: 37px;
+    width: 830px;
+}
+nav svg{
+    height: 40px;
+    width: 220px;
+    fill: red;
+}
+nav aside{
+    /* border: 2px solid red; */
+    height: 28px;
+    width: 250px;
+}
+nav aside select{
+    color: white;
+    border-radius: 10%;
+    background-color: rgb(19, 15, 15);
+    height: 35px;
+    width: 70px ;
+    font-weight: 610;
+    font-size: 14px;
+}
+nav button{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    height: 35px;
+    width: 70px ;
+    font-weight: 610;
+    font-size: 14px;
+    border: none;
+}
+
+#d1{
+    /* border: 2px solid blue;  */
+    color: white;
+   text-align: center;
+}
+main h1{
+     /* border: 2px solid red; */
+    height: 150px; 
+    line-height: 70px;
+    font-size: 56px; 
+    font-weight: 900;
+}
+main h3{
+    /* border: 2px solid yellow; */
+   font-weight: 600;
+   font-size: 20px;
+}
+#d2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+#d2 input{
+    display: inline-block;
+    color: white;
+    background-color: rgb(19, 15, 15);
+    border-radius: 5px;
+    height: 50px;
+    width: 400px ;
+    font-weight: 610;
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+#d2 button{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px ;
+    font-weight: 610;
+    font-size: 25px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#d2-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+#d2-footer input{
+    display: inline-block;
+    color: white;
+    background-color: rgb(19, 15, 15);
+    border-radius: 5px;
+    height: 50px;
+    width: 400px ;
+    font-weight: 610;
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+#d2-footer button{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px ;
+    font-weight: 610;
+    font-size: 25px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#sec1 h3{
+    background-color: black;
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 100px;
+    
+}
+#d3{
+    border: 4px solid rgb(99, 6, 79);
+    height: 80px;
+    border-top-left-radius: 60% 100px;
+    border-top-right-radius: 60% 100px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    background: radial-gradient(ellipse 100% 200% at 50% -100%,
+    rgba(64, 97, 231, 0.6) 30%,
+    rgba(32, 48, 115, 0.4) 60%,
+    rgba(0,0,0,0.8) 90%,
+    rgba(0,0,0,1) 100%),black;
+    width: 100%;
+    margin-top: -80px;
+}
+
+#sec1{
+    background-color: black;
+    position: relative;
+    z-index: 5;
+    padding-top: 20px;
+}
+
+
+#sec2 div img{
+    border-radius: 5%;
+    height: 10%;
+     
+}
+#sec2{
+    background-color: black;
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 1521px;
+    gap: 30px;
+}
+
+.trending-item {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.number {
+    position: absolute;
+    left: -20px;
+    bottom: -10px;
+    font-size: 120px;
+    font-weight: 900;
+    color: #000;
+    -webkit-text-stroke: 3px #fff;
+    text-shadow: 0 0 0 #fff;
+    z-index: 10;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    line-height: 1;
+}
+
+#sec3{
+    background-color: black;
+}
+#sec3 h3{
+    background-color: black;
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    height: 100px;
+}
+
+#sid4{
+    /* border: 2px solid green; */
+    background-color: black;
+    height: 260px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#sid4 div{
+    /* border: 2px solid blue; */
+    border-radius: 5%;
+    background:linear-gradient(rgb(26, 10, 50),rgb(26, 10, 50),rgb(105, 46, 137));
+    height: 280px;
+    width: 300px;
+}
+
+#sid4 div h3{
+    color: white;
+    /* border: 2px solid yellow; */
+    font-size: 24px;
+    font-weight: 600;
+    width: 250px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+#sid4 div p{
+    color: white;
+    text-align: start;
+    padding: 10px;
+}
+
+#sid4 header{
+   padding-left: 200px;
+   
+   /* border: 2px solid green; */
+   width: 230px;
+   height: 100px;
+}
+#sec4{
+    /* border: 2px solid yellow; */
+    background-color: black;
+    min-height: 650px;
+}
+#sec4 h1{
+    /* border: 2px solid red; */
+    color: white;
+    padding-left: 140px;
+    padding-top: 40px;
+}
+#sec4 div{
+    /* border: 2px solid green; */
+    min-height: 470px;
+    padding-left: 135px;
+    
+}
+#sec4 div aside {
+    /* border: 2px solid red; */
+    width: 1200px;
+    padding-top: 10px;
+}
+
+#sec4 details{
+    /* border: 2px solid blue; */
+    background:rgb(45, 45, 45);
+    border-bottom: 10px solid black;
+    font-size: 24px;
+}
+#sec4 summary{
+    list-style:none; 
+    color: white;
+    height: 80px;
+    padding: 35px;
+    font-weight: 400;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sec4 summary:hover{
+    cursor: pointer;
+    background-color: rgb(75, 74, 74);   
+    width: 100%;    
+}
+
+#sec4 font{
+      font-size: 36px;
+      font-weight: 100;
+   }
+
+
+
+#d2 button:hover{
+    cursor: pointer;
+}
+#sec4 p{
+      padding-left: 25px;
+      padding-top: 25px;
+      padding-right: 45px;
+      font-size: 25px;
+      line-height: 30px;
+    background-color:rgb(69, 65, 65);
+      color: white;
+      border-bottom: 2px solid black;
+      height: 100%;
+}
+
+
+
+#sec5{
+    /* border: 2px solid red; */
+    background-color: black;
+    height: 200px;
+    width: 1525px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+footer{
+    padding-left: 130px;
+    line-height: 30px;
+    padding-top: 20px;
+    height: 600px;
+    color: white;
+    background-color: black;
+    list-style: none;
+}
+footer aside{
+    color: grey;
+}
+
+
+footer span{
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer #d8 ol{
+    /* border: 2px solid blue; */
+    list-style: none;
+    cursor: pointer;
+    text-decoration: underline;
+    line-height: 35px;
+}
+
+footer div{
+    background-color: black;
+    /* border: 2px solid red; */
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+ 
+}
+footer #v2{
+    height: 20px;
+    width: 850px;
+    font-size: small;
+    color: grey;
+    display: flex;
+
+}
+footer #span2{
+    color: blue;
+}
+footer select{
+      color: white;
+    border-radius: 10%;
+    background-color: rgb(19, 15, 15);
+    height: 35px;
+    width: 70px ;
+    font-weight: 610;
+    font-size: 14px;
+}
+
+
+
+
