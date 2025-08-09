@@ -35,6 +35,28 @@ Netflix-clone/
 **Sai Nikhil**
 - GitHub: [@SaiNikhil862](https://github.com/SaiNikhil862)
 
+## 📝 Future Enhancements
+
+- [ ] Add JavaScript functionality to page
+- [ ] Implement search functionality
+- [ ] Add user authentication
+
 ## 📄 License
 
-This project is for educational purposes only.
+This project is open source and available for educational purposes.
+
+## 👨‍💻 Author
+
+**Sai Nikhil**
+- GitHub: [@SaiNikhil862](https://github.com/SaiNikhil862)
+- Email: sainikhilgoud103@gmail.com
+
+## 🙏 Acknowledgments
+
+- Nitflix for the original design inspiration
+- Font Awesome for the icons
+- Google Fonts for typography
+- The web development community for inspiration and resources
+
+---
+
