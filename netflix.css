@@ -594,6 +594,82 @@ footer select{
     }
 }
 
+/* Additional responsive fixes for all screen sizes */
+@media (max-width: 1200px) {
+    #sec2 {
+        padding: 20px 30px;
+        gap: 5px;
+    }
+    
+    .trending-item img {
+        height: 280px;
+        width: 190px;
+    }
+    
+    .number {
+        font-size: 80px;
+        left: -20px;
+    }
+}
+
+@media (max-width: 992px) {
+    #sid4 {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px;
+    }
+    
+    #sid4 div {
+        height: 250px;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    
+    .trending-item img {
+        height: 240px;
+        width: 160px;
+    }
+    
+    .number {
+        font-size: 70px;
+        left: -18px;
+    }
+}
+
+@media (max-width: 576px) {
+    #sec2 {
+        padding: 15px 10px;
+        gap: 3px;
+        overflow-x: scroll;
+    }
+    
+    .trending-item {
+        margin-right: 10px;
+        transform: translateY(-10px);
+    }
+    
+    .trending-item img {
+        height: 200px;
+        width: 130px;
+    }
+    
+    .number {
+        font-size: 50px;
+        left: -15px;
+        bottom: 0;
+    }
+    
+    #sid4 div {
+        height: 200px;
+        width: 250px;
+    }
+    
+    #sec4 div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 
 
 
