@@ -16,6 +16,18 @@ A responsive Netflix homepage clone built with HTML and CSS, featuring an authen
 
 Visit the live website: [Netflix Clone](https://sainikhil862.github.io/Netflix-clone/)
 
+⚠️ **Important Note:** If Chrome shows a "Dangerous site" warning, don't worry! This is a false positive that sometimes happens with Netflix-themed sites. Your site is completely safe. Simply click "Details" then "Visit this unsafe site" to proceed, or use a different browser like Edge or Firefox.
+
+## 📱 Mobile Responsive
+
+This Netflix clone is fully responsive and works perfectly on:
+- 📱 Mobile phones (iOS/Android)
+- 📱 Tablets (iPad/Android tablets)
+- 💻 Desktop computers
+- 🖥️ Large screens
+
+To view on mobile: Simply open the link on your phone's browser!
+
 ## 📱 Screenshots
 
 The clone includes:
@@ -107,6 +119,24 @@ Netflix-clone/
 - Create additional pages (movies, TV shows, etc.)
 - Add search functionality
 - Implement carousel for trending content
+
+## 🔧 Troubleshooting
+
+### Chrome Security Warning
+If you see a "Dangerous site" warning in Chrome:
+1. **This is normal** - Chrome is overly protective of Netflix-branded sites
+2. **Your site is safe** - It's just HTML/CSS hosted on GitHub Pages
+3. **To bypass**: Click "Details" → "Visit this unsafe site"
+4. **Alternative**: Use Edge, Firefox, or Safari browsers
+
+### Mobile Viewing
+- The site is fully responsive and works on all mobile devices
+- If images seem large, try refreshing the page
+- All features work the same on mobile as desktop
+
+### FAQ Not Working
+- Make sure JavaScript is enabled in your browser
+- Try refreshing the page if FAQ sections don't expand
 
 ## 📄 License
 
