@@ -176,9 +176,10 @@ main h3{
     padding-top: 20px;
 }
 
+
 #sec2 div img{
     border-radius: 5%;
-    height: 200px;
+    height: 250px;
     width: 150px;
     max-width: 100%;
     object-fit: cover;
@@ -189,9 +190,9 @@ main h3{
     /* border: 2px solid green; */
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 100%;
     width: 100%;
-    max-width: 1521px;
+    /* max-width: 1521px; */
     margin: 0 auto;
     gap: 8px;
     overflow-x: auto;
@@ -224,12 +225,12 @@ main h3{
 
 .number {
     position: absolute;
-    left: -55px;
-    bottom: -15px;
-    font-size: 140px;
+    left: -25px;
+    bottom: -1px;
+    font-size: 100px;
     font-weight: 900;
     color: #000000;
-    -webkit-text-stroke: 4px #ffffff;
+    -webkit-text-stroke: 2px #ffffff;
     z-index: 2;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     line-height: 0.8;
