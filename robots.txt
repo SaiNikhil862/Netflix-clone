@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sainikhil862.github.io/Netflix-clone/sitemap.xml

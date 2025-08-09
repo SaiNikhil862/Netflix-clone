@@ -176,11 +176,12 @@ main h3{
     padding-top: 20px;
 }
 
-
 #sec2 div img{
     border-radius: 5%;
-    height: 10%;
-     
+    height: 200px;
+    width: 150px;
+    max-width: 100%;
+    object-fit: cover;
 }
 #sec2{
     background-color: black;
@@ -188,29 +189,53 @@ main h3{
     /* border: 2px solid green; */
     justify-content: center;
     align-items: center;
-    height: 220px;
-    width: 1521px;
-    gap: 30px;
+    height: 450px;
+    width: 100%;
+    max-width: 1521px;
+    margin: 0 auto;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 40px 50px;
 }
 
 .trending-item {
     position: relative;
     display: flex;
     align-items: flex-end;
+    margin-right: 20px;
+    flex-shrink: 0;
+    transform: translateY(-20px);
+}
+
+.trending-item img {
+    height: 320px;
+    width: 220px;
+    border-radius: 12px;
+    object-fit: cover;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease;
+}
+
+.trending-item img:hover {
+    transform: scale(1.05);
 }
 
 .number {
     position: absolute;
-    left: -20px;
-    bottom: -10px;
-    font-size: 120px;
+    left: -55px;
+    bottom: -15px;
+    font-size: 140px;
     font-weight: 900;
-    color: #000;
-    -webkit-text-stroke: 3px #fff;
-    text-shadow: 0 0 0 #fff;
-    z-index: 10;
+    color: #000000;
+    -webkit-text-stroke: 4px #ffffff;
+    z-index: 2;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    line-height: 1;
+    line-height: 0.8;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.8);
+    pointer-events: none;
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.3));
 }
 
 #sec3{
@@ -286,12 +311,15 @@ main h3{
 #sec4 div{
     /* border: 2px solid green; */
     min-height: 470px;
-    padding-left: 135px;
+    padding-left: 50px;
+    padding-right: 50px;
     
 }
 #sec4 div aside {
     /* border: 2px solid red; */
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding-top: 10px;
 }
 
@@ -347,12 +375,15 @@ main h3{
     /* border: 2px solid red; */
     background-color: black;
     height: 200px;
-    width: 1525px;
+    width: 100%;
+    max-width: 1525px;
+    margin: 0 auto;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 20px;
 }
 
 
@@ -413,6 +444,153 @@ footer select{
     width: 70px ;
     font-weight: 610;
     font-size: 14px;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    /* Main section */
+    main {
+        height: auto;
+        min-height: 600px;
+        padding: 20px;
+    }
+    
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    nav div {
+        width: 100%;
+        height: auto;
+    }
+    
+    nav svg {
+        height: 30px;
+        width: 150px;
+    }
+    
+    nav aside {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    /* Main content */
+    main h1 {
+        font-size: 32px;
+        height: auto;
+        line-height: 1.2;
+        padding: 20px;
+    }
+    
+    main h3 {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+    
+    /* Input section */
+    #d2 {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 20px;
+    }
+    
+    #d2 input {
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    #d2 button {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    #d2-footer {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 20px;
+    }
+    
+    #d2-footer input {
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    #d2-footer button {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    /* Trending section */
+    #sec2 {
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 15px;
+        padding: 0 10px;
+        height: auto;
+        min-height: 200px;
+    }
+    
+    #sec2 div img {
+        width: 120px;
+        min-width: 120px;
+    }
+    
+    .number {
+        font-size: 80px;
+        left: -15px;
+        bottom: -5px;
+    }
+    
+    /* FAQ section */
+    #sec4 {
+        padding: 20px;
+    }
+    
+    #sec4 h1 {
+        padding-left: 0;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    #sec4 div {
+        padding-left: 0;
+    }
+    
+    #sec4 summary {
+        font-size: 18px;
+        padding: 20px;
+        height: auto;
+    }
+    
+    #sec4 p {
+        font-size: 16px;
+        padding: 20px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 20px;
+    }
+    
+    footer div {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    footer #d8 {
+        flex-direction: column;
+    }
+    
+    footer #d8 ol {
+        margin-bottom: 20px;
+    }
 }
 
 
